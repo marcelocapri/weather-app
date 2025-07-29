@@ -5,7 +5,7 @@ from datetime import datetime
 # --- CONFIGURAÇÃO DA PÁGINA ---
 # st.set_page_config é a primeira coisa a ser chamada
 st.set_page_config(
-    page_title="TechTrapture Weather",
+    page_title="XXX Weather",
     page_icon="🌦️",
     layout="centered" 
 )
@@ -85,7 +85,7 @@ def get_clothing_suggestion(feels_like, weather_id):
 
 # Cabeçalho similar ao Navbar do HTML original
 st.image("https://storage.googleapis.com/bkt-static-tt/logo.png", width=50)
-st.title("TechTrapture Weather App")
+st.title("XXX Weather App")
 st.markdown("---")
 
 # Campo de entrada para o nome da cidade
