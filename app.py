@@ -10,6 +10,29 @@ st.set_page_config(
     layout="centered" 
 )
 
+
+# --- FUNÇÃO PARA DEFINIR A COR DE FUNDO ---
+def set_bg_color():
+    """
+    Define a cor de fundo da aplicação injetando CSS.
+    """
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-color: rgb(57, 7, 107); /* Roxo escuro do seu exemplo original */
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+# Chama a função para aplicar a cor de fundo no início
+set_bg_color()
+
+
+
+
 # --- FUNÇÕES ---
 
 def get_weather(api_key, city):
