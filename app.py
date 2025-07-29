@@ -20,7 +20,7 @@ def set_bg_color():
          f"""
          <style>
          .stApp {{
-             background-color: rgb(57, 7, 107); /* Roxo escuro do seu exemplo original */
+             background-color: rgb(0, 0, 0); 
          }}
          </style>
          """,
